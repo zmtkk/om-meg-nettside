@@ -1,0 +1,17 @@
+.body {
+    background-color: #2e2b54;
+    color: #bdbbe4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: monospace;
+}
+
+/* Add a hover effect for links */
+a {
+    color: #88e3a3;
+    text-decoration: none;
+}
