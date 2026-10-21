@@ -1,6 +1,6 @@
 .body {
-    background-color: #2e2b54;
-    color: #bdbbe4;
+    background-color: #5b3fa8;
+    color: #ffc49b;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -12,6 +12,6 @@
 
 /* Add a hover effect for links */
 a {
-    color: #88e3a3;
+    color: #f0442e;
     text-decoration: none;
 }
