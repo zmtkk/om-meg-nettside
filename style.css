@@ -1,6 +1,6 @@
 .body {
-    background-color: #5b3fa8;
-    color: #ffc49b;
+    background-color: #ebc16c;
+    color: #402d00;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -14,4 +14,9 @@
 a {
     color: #f0442e;
     text-decoration: none;
+}
+
+table, th, td {
+    border: 3px solid #402d00;
+    border-collapse: collapse;
 }
