@@ -1,22 +1,64 @@
+/*background video, copied settings fra nettet :D*/
+.background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    opacity: 0.7;
+}
+
+/*kanskje det trenger ikke lenger, fordi jeg har bakgrunn som video, men jeg skal la det ligge her så ingenting ødelegges*/
 .body {
-    background-color: #ebc16c;
-    color: #402d00;
+    background-color: #000000;
+    color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/*custom font and background for tittle*/
 .title {
     font-family: monospace;
+    background-color: #442254;
+    width: 18%;
+    border: 2px solid #6a3f7a;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 60px;
 }
 
-/* Add a hover effect for links */
+/* color for links */
 a {
     color: #f0442e;
     text-decoration: none;
 }
 
-table, th, td {
-    border: 3px solid #402d00;
+/*background for tables*/
+table,
+th,
+td {
+    background-color: #442254;
+    padding: 10px;
+    border: 2px solid #6a3f7a;
     border-collapse: collapse;
+    border-radius: 30px;
+}
+
+/*background for lists*/
+ol,
+ul {
+    background-color: #442254;
+    width: 18%;
+    border: 2px solid #6a3f7a;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
 }
