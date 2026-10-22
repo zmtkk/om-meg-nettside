@@ -1,101 +1,122 @@
 <!DOCTYPE html>
-<!--As i remember, in head we write everything that user is not supposed to see-->
+<html lang="no">
+<!--In head we write everything that user is not supposed to see-->
 
 <head>
-    <title>Vasyl-sin side</title>
-    <html lang="no">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasyl-sin side</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <!--In body however, everything that user MUST see-->
 
 <body class="body">
-    <div class="container">
-
-
-        <!--VideoBackground-->
-        <video class="background-video" autoplay muted loop id="background-video">
-            <source src="TTbaner.mov" type="video/mp4">
-        </video>
-
-        <div>
+    <header class="container">
+        <div class="main-informasjon">
             <!--Claude has told me about class thing. I knew about it before, but this before was 2 years ago, and i dont remember anything from there on-->
-            <h1 class="title">Hello, jeg heter Vasyl!</h1>
+            <h1>Hello, jeg heter Vasyl!</h1>
+            <!--
+            ADD A PICTURE OF YOURSELF SHOWING THUMBSUP!!!!!!!!
+            -->
+            <p>Det er min første nettside jeg gjor i livet mitt, hvis vi ser bort arbeidet jeg gjorde 2 år siden når
+                jeg
+                begynnet å lære HTML, men de var ekstremt enkelt.
+                Denne netside lages opp for programering faget, prosjekt (eller oppgave hvis du vil), "om meg", å
+                lage
+                nettside, bokstavelig talt, om meg selv.
+                Jeg skriver denne texten bare fordi jeg trenger denne blokken å se mer massive ut, og jeg vet ikke
+                lenger hva kan jeg si.
+                Håper at ferdig gjob skal se bra ut, og at du skal like min nettside, og at læreren skal gi meg god
+                karakter :3
+            </p>
+            <!--4 paragraphs, for more spacing-->
+            <br> <br> <br> <br>
+            <h3>Her er litt informasjon om meg</h3>
+    </header>
 
-            <h2 class="subtitle">Her er litt informasjon om meg</h2>
-        </div>
+    <main>
+        <section>
+            <h2 class="hobby-title">Hobbyer</h2>
+            <!--hobby descriptions-->
+            <div class="every-hobby">
+                <h4>Jeg liker å gjøre flere ting</h4>
+                <ul>
+                    <li>Spill videospill</li>
+                    <li>Lage noen bilder i photoshop</li>
+                    <li>KANSKJE lage videor, nå jeg elsker å se på Motion Graphics, og jeg skal lære å lage dem snært på
+                        YFF
+                        faget.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <!--Favorite Games list, ol for numbers-->
+            <h2 class="favorite-games-title">Hva er favoritt videospillene mine?</h2>
 
-        <h3 class="hobby-title">Hobbyer</h3>
-        <!--hobby descriptions-->
-        <div class="every-hobby">
-            <h4>Jeg liker å gjøre flere ting</h4>
-            <ul>
-                <li>Spill videospill</li>
-                <li>Lage noen bilder i photoshop</li>
-                <li>KANSKJE lage videor, nå jeg elsker å se på Motion Graphics, og jeg skal lære å lage dem snært på YFF
-                    faget.
+            <ol class="favorite-games-list">
+                <!--Add pictures of games titles and make them clickable to their steam storepage-->
+                <li><a href="https://store.steampowered.com/app/1671210/DELTARUNE/" target="_blank"
+                        rel="noopener noreferrer"><img
+                            src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Deltarune_vector_logo.svg/1280px-Deltarune_vector_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                            alt="Deltarune" style="width: 200px; height: auto;"></a></li>
+                <li><a href="https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/" target="_blank"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/8/8a/LeMansUltimateLogo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+                            alt="Le mans Ultimate" style="width: 200px; height: auto;"></a></li>
+                <li><a href="https://store.steampowered.com/app/1144200/Ready_or_Not/" target="_blank"><img
+                            src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Ready_or_Not_logo.svg/960px-Ready_or_Not_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                            alt="Ready or Not" style="width: 200px; height: auto;"></a></li>
+            </ol>
+        </section>
+        <section>
+            <h3 class="school-subject-title">Hvilket skolefag liker jeg best?</h3>
+            <table class="school-subject-table">
+                <tr>
+                    <th>Fag</th>
+                    <th>Hvorfor liker jeg det?</th>
+                </tr>
+                <tr>
+                    <td>Prod. og Historie</td>
+                    <td>Der snakker vi mye om design og hvordan å lage et bilde/logo whatever vakker. Der er også bra
+                        for
+                        meg
+                        siden jeg vil lære å lage Material You designs.</td>
+                </tr>
+                <tr>
+                    <td>Programmering</td>
+                    <td>Timer jeg lager dette nettsiden på nå. Uten den, denne netside skulle ikke eksistere.</td>
+                </tr>
+                <tr>
+                    <td>Teknologiforstårelse</td>
+                    <td>Mye viktig informasjon om hvordan PC-er, nett, servers, osv, funker.</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2 class="favorite-group-title">Favorittmusikk gruppene mine er</h2>
+            <ul class="favorite-group-list">
+                <!--<a href="url">link text</a>-->
+                <li><a href="https://www.youtube.com/@twodoorcinemaclub/videos" target="_blank">Two Door Cinema Club</a>
                 </li>
+                <li><a href="https://www.youtube.com/@TheVanishedPeople/videos" target="_blank">Vanished people</a></li>
             </ul>
-        </div>
-
-
-        <!--Favorite Games list, ol for numbers-->
-        <h3 class="favorite-games-title">Hva er favoritt videospillene mine?</h3>
-        <ol class="favorite-games-list">
-            <!--Add pictures of games titles and make them clickable to their steam storepage-->
-            <li><a href="https://store.steampowered.com/app/1671210/DELTARUNE/" target="_blank"
-                    rel="noopener noreferrer"><img
-                        src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Deltarune_vector_logo.svg/1280px-Deltarune_vector_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
-                        alt="Deltarune" style="width: 200px; height: auto;" "></a></li>
-        <li><a href=" https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/" target="_blank"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/8/8a/LeMansUltimateLogo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
-                        alt="Le mans Ultimate" style="width: 200px; height: auto;"></a></li>
-            <li><a href="https://store.steampowered.com/app/1144200/Ready_or_Not/" target="_blank"><img
-                        src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Ready_or_Not_logo.svg/960px-Ready_or_Not_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
-                        alt="Ready or Not" style="width: 200px; height: auto;"></a></li>
-        </ol>
-        <h3 class="school-subject-title">Hvilket skolefag liker jeg best?</h3>
-        <table class="school-subject-table">
-            <tr>
-                <th>Fag</th>
-                <th>Hvorfor liker jeg det?</th>
-            </tr>
-            <tr>
-                <td>Prod. og Historie</td>
-                <td>Der snakker vi mye om design og hvordan å lage et bilde/logo whatever vakker. Der er også bra for
-                    meg
-                    siden jeg vil lære å lage Material You designs.</td>
-            </tr>
-            <tr>
-                <td>Programmering</td>
-                <td>Timer jeg lager dette nettsiden på nå. Uten den, denne netside skulle ikke eksistere.</td>
-            </tr>
-            <tr>
-                <td>Teknologiforstårelse</td>
-                <td>Mye viktig informasjon om hvordan PC-er, nett, servers, osv, funker.</td>
-            </tr>
-        </table>
-        <h3 class="favorite-group-title">Favorittmusikk gruppene mine er</h3>
-        <ul class="favorite-group-list">
-            <!--<a href="url">link text</a>-->
-            <li><a href="https://www.youtube.com/@twodoorcinemaclub/videos" target="_blank">Two Door Cinema Club</a>
-            </li>
-            <li><a href="https://www.youtube.com/@TheVanishedPeople/videos" target="_blank">Vanished people</a></li>
-        </ul>
-        <nav>
-            <h3>Links/nametags to socials</h3>
-            <h4><a href="https://www.tiktok.com/@tuz.vasya" target="_blank"><img
-                        src="https://static.vecteezy.com/system/resources/thumbnails/016/716/450/small_2x/tiktok-icon-free-png.png"
-                        alt="TikTok" style="width: 50px; height: auto;"></a>
-                <a href="https://discord.com/users/1151425749581049906" target="_blank"><img
-                        src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png"
-                        alt="Discord" style="width: 50px; height: auto;"></a>
-                <a href="https://t.me/Vasya_tz" target="_blank"><img
-                        src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/3840px-Telegram_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
-                        alt="Telegram" style="width: 50px; height: auto;"></a>
-            </h4>
-        </nav>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Links/nametags to socials</h2>
+        <h4><a href="https://www.tiktok.com/@tuz.vasya" target="_blank"><img
+                    src="https://static.vecteezy.com/system/resources/thumbnails/016/716/450/small_2x/tiktok-icon-free-png.png"
+                    alt="TikTok" style="width: 50px; height: auto;"></a>
+            <a href="https://discord.com/users/1151425749581049906" target="_blank"><img
+                    src="https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png"
+                    alt="Discord" style="width: 50px; height: auto;"></a>
+            <a href="https://t.me/Vasya_tz" target="_blank"><img
+                    src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/3840px-Telegram_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
+                    alt="Telegram" style="width: 50px; height: auto;"></a>
+        </h4>
+    </footer>
 </body>
 
 </html>
