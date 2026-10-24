@@ -39,12 +39,29 @@
 
 .meg-picture {
     position: absolute;
-    float: right;
+    float: center;
     mix-blend-mode: screen;
     width: 350px;
     height: auto;
     margin-left: 30px;
     right: 150px;
+}
+
+.alt-treavmeg {
+    position: absolute;
+    mix-blend-mode: screen;
+    width: 250px;
+    height: auto;
+    left: 75%;
+    bottom: 275px;
+}
+
+.three-of-me {
+    position: static;
+    float: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 .hobby-title {
@@ -59,6 +76,23 @@
     text-align: left;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.hobby-card {
+    position: static;
+    padding: auto;
+    margin: auto;
+    background-color: #1c1b1d;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+.hobby-video {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+
 }
 
 /* color for links */
