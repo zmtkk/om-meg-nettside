@@ -129,12 +129,73 @@
     width: 200px;
 }
 
+dd {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+dt {
+    font-family: "libron", sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #1c1b1d;
+    color: #d6d6d6;
+    border-radius: 20px;
+    line-height: 150%;
+    max-width: 750px;
+}
+
 /*background for tables*/
 table {
     background-color: #1c1b1d;
     padding: 10px;
     border-collapse: collapse;
     border-radius: 24px;
+}
+
+
+/*==GAMES CARD==*/
+
+.game-card {
+    display: flex;
+    align-items: center;
+    position: static;
+    align-items: center;
+    background-color: #1c1b1d;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 24px;
+    width: 700px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.game-card:hover {
+    background-color: #262529;
+}
+
+.games-video {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.games-text h2 {
+    color: #d8e2ff;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 50px;
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.games-text p {
+    color: #9aa0b4;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 20px;
 }
 
 /*== GAMES PAGE ==*/
@@ -209,23 +270,7 @@ ul {
     width: 300px;
 }
 
-/*== HOBBIES PAGE ==*/
-dd {
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-}
 
-
-dt {
-    font-family: "libron", sans-serif;
-    font-size: 15px;
-    padding: 15px;
-    background-color: #1c1b1d;
-    color: #eeeef0;
-    border-radius: 20px;
-    line-height: 130%;
-}
 
 /* From Uiverse.io by iZOXVL */
 .return-button {
@@ -239,7 +284,7 @@ dt {
     transition: all 0.4s ease;
     outline: none;
     position: fixed;
-    right: 5px;
+    right: 15px;
     top: 5px;
     overflow: hidden;
     font-weight: bold;
