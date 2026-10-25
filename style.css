@@ -15,6 +15,8 @@
 
 /*==TITTLE PAGE==*/
 .main-informasjon {
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Roboto Flex", sans-serif;
     background-color: #1c1b1d;
     width: 95%;
@@ -26,32 +28,27 @@
 }
 
 .title-picture {
-    position: absolute;
-    float: right;
+    display: flex;
     border-radius: 16px;
     width: 200px;
     height: auto;
     margin-left: 20px;
-    right: 450px;
 }
 
 .meg-picture {
-    position: absolute;
-    float: center;
+    display: flex;
     mix-blend-mode: screen;
     width: 350px;
     height: auto;
-    margin-left: 30px;
-    right: 150px;
+    left: 20px;
 }
 
 .alt-treavmeg {
-    position: absolute;
+    display: flex;
     mix-blend-mode: screen;
-    width: 250px;
+    width: 200px;
     height: auto;
-    left: 75%;
-    bottom: 315px;
+    margin-left: auto;
 }
 
 .three-of-me {
@@ -60,6 +57,13 @@
     width: 100%;
     height: auto;
     border-radius: 20px;
+}
+
+.her-er-litt-info-om-meg {
+    mix-blend-mode: screen;
+    width: 550px;
+    height: auto;
+    margin-top: 40px;
 }
 
 /*==HOBBY PAGE== */
@@ -118,7 +122,7 @@
 }
 
 .hobby-link {
-    display:block;
+    display: block;
     padding: 50px;
     text-align: center;
     border: 1px solid #1c1b1d;
@@ -133,6 +137,67 @@ table {
     border-radius: 24px;
 }
 
+/*== GAMES PAGE ==*/
+.click-on-me {
+    position: static;
+    display: block;
+    mix-blend-mode: screen;
+    width: 450px;
+    height: auto;
+    margin-left: -20px;
+
+}
+
+.deltarune-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Denne block var skrevet med Claude, så bilde skal stå hvor det må stå no matter size av din browser */
+.deltarune-card {
+    display: flex;
+    background-color: #1c1b1d;
+    border-radius: 24px;
+
+}
+
+.deltarune-bilde {
+    width: 100%;
+    height: auto;
+}
+
+.deltarune-text a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #2c4678;
+    color: #ffffff;
+    border-radius: 14px;
+    width: 170px;
+    height: 45px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    transition: all 0.2s ease;
+}
+
+.deltarune-text a:hover {
+    background-color: #4465a3;
+
+    transform: scale(1.05);
+}
+
+.deltarune-text p {
+    background-color: #1c1b1d;
+    border-radius: 24px;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
 /*background for lists*/
 ol,
 ul {
@@ -144,6 +209,7 @@ ul {
     width: 300px;
 }
 
+/*== HOBBIES PAGE ==*/
 dd {
     font-family: "Roboto", sans-serif;
     font-size: 30px;
@@ -177,6 +243,7 @@ dt {
     top: 5px;
     overflow: hidden;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .return-button:hover {
