@@ -4,6 +4,10 @@
     src: url(Libron-Regular.woff2);
 }
 
+a {
+    color: #4465a3;
+}
+
 /*kanskje det trenger ikke lenger, fordi jeg har bakgrunn som video, men jeg skal la det ligge her så ingenting ødelegges*/
 .body {
     background-color: #141314;
@@ -80,6 +84,8 @@
     text-align: left;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 .hobby-card {
@@ -145,8 +151,57 @@ dt {
     border-radius: 20px;
     line-height: 150%;
     max-width: 750px;
+    margin-left: 10px;  
 }
 
+.hobby-games {
+    display: flex;
+    justify-content: center;
+}
+
+.haste-footage {
+    border-radius: 24px;
+    width: 250px;
+    height: auto;
+    /*order was made so video gonna be on the right instead of left, found by claude since i couldnt find it without AI*/
+    order: 1;
+    padding: 20px;
+}
+
+.hobby-edit {
+    display: flex;
+    justify-content: center;
+}
+
+.davinci-footage {
+    border-radius: 24px;
+    width: 250px;
+    height: auto;
+    /*order was made so video gonna be on the right instead of left, found by claude since i couldnt find it without AI*/
+    order: 1;
+    padding: 20px;
+}
+
+.hobby-race {
+    display: flex;
+    justify-content: center;
+}
+
+.race-footage {
+    border-radius: 24px;
+    width: 250px;
+    height: auto;
+    /*order was made so video gonna be on the right instead of left, found by claude since i couldnt find it without AI*/
+    order: 1;
+    padding: 20px;
+}
+
+.every-hobby p {
+    display: flex;
+    color:#464546;
+    order: 1;
+    padding-left:140px;
+}
 /*background for tables*/
 table {
     background-color: #1c1b1d;
@@ -156,7 +211,23 @@ table {
 }
 
 
+
 /*==GAMES CARD==*/
+.games-title{
+    font-family: "Roboto Flex", sans-serif;
+    background-color: #2c4678;
+    color: #d8e2ff;
+    width: auto;
+    height: 60px;
+    padding: auto;
+    margin: auto;
+    font-size: 40px;
+    text-align: left;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
 
 .game-card {
     display: flex;
@@ -199,6 +270,8 @@ table {
 }
 
 /*== GAMES PAGE ==*/
+
+/* DELTARUNE */
 .click-on-me {
     position: static;
     display: block;
@@ -258,6 +331,80 @@ table {
     font-family: "Noto Sans", sans-serif;
 }
 
+/* Le Mans Ultimate */
+
+.LMU-banner {
+    width: 100%;
+    height: auto;
+}
+
+.LMU-card a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #2c4678;
+    color: #ffffff;
+    border-radius: 14px;
+    width: 200px;
+    height: 45px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    transition: all 0.2s ease;
+}
+
+.LMU-card a:hover {
+    background-color: #4465a3;
+
+    transform: scale(1.05);
+}
+
+.LMU-card p {
+    background-color: #1c1b1d;
+    border-radius: 24px;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/* Ready or Not */
+.RON-banner {
+    width: 100%;
+    height: auto;
+}
+
+.RoN-card a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #2c4678;
+    color: #ffffff;
+    border-radius: 14px;
+    width: 200px;
+    height: 45px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 200;
+    transition: all 0.2s ease;
+}
+
+.RoN-card a:hover {
+    background-color: #4465a3;
+
+    transform: scale(1.05);
+}
+
+.RoN-card p {
+    background-color: #1c1b1d;
+    border-radius: 24px;
+    text-align: left;
+    font-family: "Noto Sans", sans-serif;
+}
 
 /*background for lists*/
 ol,
