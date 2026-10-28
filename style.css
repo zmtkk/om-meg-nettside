@@ -300,6 +300,8 @@ table {
 .deltarune-bilde {
     width: 100%;
     height: auto;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 
 .deltarune-text a {
@@ -325,10 +327,11 @@ table {
 }
 
 .deltarune-text p {
-    background-color: #1c1b1d;
+    background-color: #47fcfc25;
     border-radius: 24px;
     text-align: left;
     font-family: "Noto Sans", sans-serif;
+    padding: 10px;
 }
 
 /* Le Mans Ultimate */
@@ -336,6 +339,7 @@ table {
 .LMU-banner {
     width: 100%;
     height: auto;
+    border-radius: 14px;
 }
 
 .LMU-card a {
@@ -363,16 +367,18 @@ table {
 }
 
 .LMU-card p {
-    background-color: #1c1b1d;
+    background-color: hsla(350, 87%, 55%, 0.2);
     border-radius: 24px;
     text-align: left;
     font-family: "Noto Sans", sans-serif;
+    padding: 10px;
 }
 
 /* Ready or Not */
 .RON-banner {
     width: 100%;
     height: auto;
+    border-radius: 14px;
 }
 
 .RoN-card a {
@@ -382,7 +388,7 @@ table {
     background-color: #2c4678;
     color: #ffffff;
     border-radius: 14px;
-    width: 200px;
+    width: 150px;
     height: 45px;
     margin: 10px;
     text-decoration: none;
@@ -400,10 +406,11 @@ table {
 }
 
 .RoN-card p {
-    background-color: #1c1b1d;
+    background-color: #78787846;
     border-radius: 24px;
     text-align: left;
     font-family: "Noto Sans", sans-serif;
+    padding: 10px;
 }
 
 /*background for lists*/
