@@ -135,14 +135,14 @@ a {
     width: 200px;
 }
 
-dd {
+dt {
     font-family: "Roboto", sans-serif;
     font-size: 30px;
     font-weight: 500;
 }
 
 
-dt {
+dd {
     font-family: "libron", sans-serif;
     font-size: 15px;
     padding: 15px;
@@ -151,7 +151,7 @@ dt {
     border-radius: 20px;
     line-height: 150%;
     max-width: 750px;
-    margin-left: 10px;  
+    margin-left: 10px;
 }
 
 .hobby-games {
@@ -198,22 +198,17 @@ dt {
 
 .every-hobby p {
     display: flex;
-    color:#464546;
+    color: #464546;
     order: 1;
-    padding-left:140px;
+    padding-right: 130px;
+    justify-content: right;
 }
-/*background for tables*/
-table {
-    background-color: #1c1b1d;
-    padding: 10px;
-    border-collapse: collapse;
-    border-radius: 24px;
-}
+
 
 
 
 /*==GAMES CARD==*/
-.games-title{
+.games-title {
     font-family: "Roboto Flex", sans-serif;
     background-color: #2c4678;
     color: #d8e2ff;
@@ -306,8 +301,10 @@ table {
 
 .deltarune-text a {
     display: flex;
+    /*yo, important note, allign items works for vertical, and justify content - for horizontal*/
     align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: #2c4678;
     color: #ffffff;
     border-radius: 14px;
@@ -346,6 +343,7 @@ table {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: #2c4678;
     color: #ffffff;
     border-radius: 14px;
@@ -362,7 +360,6 @@ table {
 
 .LMU-card a:hover {
     background-color: #4465a3;
-
     transform: scale(1.05);
 }
 
@@ -385,10 +382,11 @@ table {
     display: flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     background-color: #2c4678;
     color: #ffffff;
     border-radius: 14px;
-    width: 150px;
+    width: 160px;
     height: 45px;
     margin: 10px;
     text-decoration: none;
@@ -425,6 +423,15 @@ ul {
 }
 
 
+/*background for tables*/
+table {
+    background-color: #1c1b1d;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 24px;
+}
+
+
 
 /* From Uiverse.io by iZOXVL */
 .return-button {
@@ -450,3 +457,4 @@ ul {
     color: #2c4678;
     transform: scale(1.05);
 }
+
