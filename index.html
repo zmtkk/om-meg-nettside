@@ -20,6 +20,14 @@
 
 <body class="body">
     <!-- do it here afterwards <nav></nav> -->
+    <nav class="nav-menu">
+        <p>
+            navigation menu ->
+            <a href="#hobby-id">Hobbier</a>
+            <a href="#spillene-id">Favorittspillene</a>
+            <a href="#fagene-id">Favorittfagene</a>
+        </p>
+    </nav>
     <header class="container">
         <div class="main-informasjon">
             <!--Claude has told me about class thing. I knew about it before, but this before was 2 years ago, and i dont remember anything from there on-->
@@ -58,7 +66,7 @@
 
         <!-- <h3>Her er litt informasjon om meg</h3> -->
         <img src="bilder/littinfoommeg.png" class="her-er-litt-info-om-meg">
-        <section>
+        <section id="hobby-id">
             <!--Link, and video in it-->
             <a href="hobbies.html" class="hobby-card">
                 <div>
@@ -76,7 +84,7 @@
 
         <!--===GAMES CARD===-->
 
-        <section>
+        <section id="spillene-id">
             <!--Link, and video in it-->
             <a href="spillene.html" class="game-card">
                 <div>
@@ -92,29 +100,41 @@
             </a>
         </section>
 
-
-        <section>
+        <!-- == FAVORITTFAG CARD ===-->
+        <section id="fagene-id">
             <a href="favorittfag.html" class="fag-card">
                 <div>
-                    <video class="blank" autoplay muted loop>
+                    <video class="fag-video" autoplay muted loop>
                         <source src="blank" type="video/mp4">
                     </video>
                 </div>
                 <!--text besides video-->
-                <div class="blank">
+                <div class="fag-text">
                     <h2>Favoritt fagene mine</h2>
                     <p>Beskrivelse av mine favorittfag</p>
                 </div>
             </a>
         </section>
         <section>
-            <h2 class="favorite-group-title">Favorittmusikk gruppene mine er</h2>
+            <!-- <h2 class="favorite-group-title">Favorittmusikk gruppene mine er</h2>
             <ul class="favorite-group-list">
-                <!--<a href="url">link text</a>-->
+                <a href="url">link text</a>
                 <li><a href="https://www.youtube.com/@twodoorcinemaclub/videos" target="_blank">Two Door Cinema Club</a>
                 </li>
                 <li><a href="https://www.youtube.com/@TheVanishedPeople/videos" target="_blank">Vanished people</a></li>
-            </ul>
+            </ul> -->
+            <a href="musikk.html" class="musikk-card">
+                <div>
+                    <video class="musikk-video" autoplay muted loop>
+                        <source src="blank" type="video/mp4">
+                    </video>
+                </div>
+                <!--text besides video-->
+                <div class="musikk-text">
+                    <h2>Favoritt musikkgruppene mine</h2>
+                    <p>Beskrivelse av mine favorittmusikk gruppene</p>
+                </div>
+            </a>
         </section>
     </main>
     <footer>
