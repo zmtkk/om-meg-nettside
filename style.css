@@ -5,7 +5,7 @@
 }
 
 a {
-    color: #4465a3;
+    color: #8fb0ff;
 }
 
 .nav-menu {
@@ -14,7 +14,7 @@ a {
     border-bottom-right-radius: 14px;
     text-indent: 25px;
     width: 100%;
-    height: 50px;
+    height: 140px;
     font-size: 20px;
     align-content: center;
     text-decoration: none;
@@ -30,6 +30,7 @@ a {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 /*==TITTLE PAGE==*/
@@ -93,6 +94,24 @@ a {
 
 main {
     max-width: 1100px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.persona-pfp {
+    display: flex;
+    justify-content: right;
+    width: 300px    ;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 /*==HOBBY PAGE== */
 
@@ -596,7 +615,7 @@ table {
     background-color: #1c1b1d;
     padding: 20px;
     border-radius: 24px;
-    width: 100%;
+    width: 95%;
     text-decoration: none;
     transition: all 0.2s ease;
 }
@@ -643,7 +662,7 @@ li {
     background-color: #1c1b1d;
     padding: 20px;
     border-radius: 24px;
-    width: 100%;
+    width: 95%;
     text-decoration: none;
     transition: all 0.2s ease;
 }
