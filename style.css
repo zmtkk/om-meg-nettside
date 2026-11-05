@@ -496,7 +496,7 @@ dd {
     background-color: #262529;
 }
 
-.fag-video {
+.fag-image {
     width: 300px;
     height: auto;
     border-radius: 20px;
@@ -735,7 +735,8 @@ nav ul {
 
 nav a:hover {
     color: #c1ff08;
-    transition: all 0.2s ease;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 
@@ -747,6 +748,7 @@ footer ul {
     gap: 12px;
     list-style-type: none;
 }
+
 footer img {
     width: 50px;
     height: auto;
